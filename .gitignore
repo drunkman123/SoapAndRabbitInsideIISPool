@@ -1,0 +1,10 @@
+SrvIdo/.vs/
+SrvIdo/SrvIDO.Data/bin/
+SrvIdo/SrvIDO.Data/obj/
+SrvIdo/SrvIDO.DOMAIN/bin/
+SrvIdo/SrvIDO.DOMAIN/obj/
+SrvIdo/SrvIDO.Infraestructure/bin/
+SrvIdo/SrvIDO.Infraestructure/obj/
+SrvIdo/SrvIdo/bin/Debug/
+SrvIdo/SrvIdo/obj/
+SrvIdo/SrvIDO.SERVICES/obj/
