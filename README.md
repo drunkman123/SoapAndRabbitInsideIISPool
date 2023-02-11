@@ -47,4 +47,4 @@ A instância do RabbitMQ está configurada com exchange de dead-letter para rece
 
 
 ### Modo de Uso
-Basta fazer 2 requests, um cada endpoint, que a aplicação entrará em 2 loops distintos.
+Basta fazer 2 requests, um cada endpoint, que a aplicação entrará em 1 loop no pub e ficara escutando no sub.
