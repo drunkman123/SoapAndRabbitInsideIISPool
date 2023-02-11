@@ -5,9 +5,9 @@ Uma API que faz requisições via SOAP, envia para fila num rabbitMq local e dep
 C# .NET 6, SQL, SOAP, RabbitMQ
 ### Desafios e Futuro
 O uso de uma API em loop para "ativar" o handler do RabbitMQ foi motivado pois o servidor de hospedagem não possui docker e só permite inclusão no IIS numa AppPool.
-Este projeto meu primeiro usando RabbitMQ, que vale dizer que tudo que fiz foi aprendido em apenas 1 dia.
+<br><br>Este projeto meu primeiro usando RabbitMQ, que vale dizer que tudo que fiz foi aprendido em apenas 1 dia.
 
-
+<br><br><br><br>
 
 Esta parte do código serve para limitar 1 request apenas por endpoint, bastando usar o decorado [ExclusiveAction] em cada método da controller (visto que os 2 entrarão em loop, ninguém mais conseguirá chamar outra instância)
 ```
@@ -40,7 +40,7 @@ Esta parte do código serve para limitar 1 request apenas por endpoint, bastando
     }
 ```
 
-
+<br><br>
 
 A instância do RabbitMQ está configurada com exchange de dead-letter para receber as mensagens com falha (Nack).
 
